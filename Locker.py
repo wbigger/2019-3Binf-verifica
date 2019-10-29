@@ -1,11 +1,9 @@
 class Locker:
-    def __init__(self,position,width,height,depth,material,private_key):
+    def __init__(self,position,width,height,depth,material,private_key,volume):
         self.position = position
         self.width = width
         self.height = height
         self.depth  = depth
         self.material = material
         self.private_key = private_key  
-        self.bulky = True
-        self.bulky = False
-        self.bulky = True 
+         if self.volume = width 
