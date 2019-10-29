@@ -16,8 +16,6 @@ class Book:
     def is_isbn_valid(self):
         check_digit = self.isbn % 10
 
-        digits = []
-
         digits = list(str(self.isbn))
         digits.pop()
         digits = list(map(int, digits))
