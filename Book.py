@@ -26,7 +26,4 @@ class Book:
             expected_check_digit += digits[index] * (index + 1)
 
         expected_check_digit %= 11
-
-        print(expected_check_digit)
-
         return expected_check_digit == check_digit
