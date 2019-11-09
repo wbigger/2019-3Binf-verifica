@@ -31,7 +31,7 @@ def test_height():
 
 def test_depth():
     locker = create_locker(1)
-    assert locker.depth == 60    
+    assert locker.depth == 60
 
 def test_material():
     locker = create_locker(1)
