@@ -12,15 +12,6 @@ class Library:
         self.catalogue.append(book)
         self.last_update = datetime.now()
 
-marconi = Library("Biblioteca IIS Marconi","CIVMA")
 
-harry_potter = Book("Harry Potter qualcosa","JKR","Salani",1997,350,12345)
-
-marconi.add_book(harry_potter)
-
-print(marconi.name)
-print(marconi.sbn_code)
-print(marconi.last_update)
-print(marconi.catalogue)
 
 
