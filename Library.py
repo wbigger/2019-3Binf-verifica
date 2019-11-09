@@ -8,14 +8,17 @@ class Library:
         self.last_update = datetime.now()
         self.catalogue = []
 
-    def add_book(self,book):
-        self.catalogue.append(book)
+    def add_book(self,Book):
+        self.catalogue.append(Book)
 
 marconi = Library("BIBLIOTECA IIS Marconi", "CIVMA")
-harry_potter = book("Harry Potter e la pietra filosofale","J. K. Rowling","Salani Editore",1997, 294, 8877827025)
+harry_potter = Book("Harry Potter e la pietra filosofale","J. K. Rowling","Salani Editore",1997, 294, 8877827025)
+
+assert marconi.name == "BIBLIOTECA IIS Marconi"
+assert marconi.sbn_code == "8877827025"
+assert marconi.last_update == ""
+assert len(marconi.catalogue) == "0"
+
 marconi.add_book(harry_potter)
 
-print(marconi.name)
-print(marconi.sbn_code)
-print(marconi.last_update)
-print(marconi.catalogue)
+assert len(marconi.catalogue) == "1"
