@@ -1,10 +1,10 @@
 from Library import Library
 from Book import Book
 
-marconi = Library("IIS Marconi Library", "CIVMA")
 
 def test_name():
 
+    marconi = Library("IIS Marconi Library", "CIVMA")
     assert (marconi.name == "IIS Marconi Library")
     assert(marconi.sbn_code != "")
     assert len(marconi.catalog) == 0
