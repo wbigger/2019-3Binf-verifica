@@ -11,13 +11,4 @@ class Library:
 
     def add_book(self, book):
         self.catalogue.append(book)
-
-
-marconi = Library("Biblioteca IIS Marconi", "CIVMA")
-harry_potter = Book("Harry Potter e la pietra filosofale","J. K. Rowling","Salani Editore", 1997, 294, 8877827025)
-marconi.add_book(harry_potter)
-
-print(marconi.name)
-print(marconi.sbn_code)
-print(marconi.last_update)
-print(marconi.catalogue)
+        self.last_update = datetime.now
