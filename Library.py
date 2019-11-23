@@ -11,7 +11,3 @@ class Library:
     def add_book(self,book):
         self.catalogue.append(book)
         self.last_update = datetime.now()
-
-
-
-
