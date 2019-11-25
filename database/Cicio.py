@@ -5,9 +5,10 @@ cuore_di_tenebra = Book("Cuore di tenebra La linea d'ombra", "Joseph Conrad", "R
 
 books = [il_processo, cuore_di_tenebra]
 
-assert len(books) == 2, "i libri inseriti sono {}, ma devono essere 2".format(len(books))
-assert books[0].title == "Il processo", "il primo libro e' {}, dovrebbe essere 'Il processo'" .format(books[0].title)
-assert books[1].title == "Cuore di tenebra La linea d'ombra", "il primo libro e' {}, dovrebbe essere 'Cuore di tenebra La linea d'ombra'".format({books[0].title})
+
+assert len(books) == 2, f"i libri inseriti sono {len(books)}, ma devono essere 2"
+assert books[0].title == "Il processo", f"il primo libro è{books[0].title}, dovrebbe essere 'Il processo'" 
+assert books[1].title == "Cuore di tenebra La linea d'ombra", f"il primo libro è{books[0].title}, dovrebbe essere 'Cuore di tenebra La linea d'ombra'"
 
 def get_books_list():
     return books
