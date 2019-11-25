@@ -7,7 +7,6 @@ class Book:
         self.publisher = publisher
         self.year = year
         self.pages = pages
-        print("hello")
         self.isbn = book_id if self.is_isbn_valid(book_id) else None
         self.sbn_code = book_id if self.is_sbn_code_valid(book_id) else None
         self.is_bulky = self.pages > 500
@@ -32,9 +31,8 @@ class Book:
         return accumulator == isbn_check
 
     def is_sbn_code_valid(self,code):
-        print(f"code is {code}")
         if not isinstance(code, str):
-            print(f"code not a string")
+            print(f"{code} is not a string")
             return False
         return re.search("^[A-Z]{2}\\\\[A-Z]{4}\\\\[A-Z0-9]{3}\\\\[0-9]{7}", code) != None
 
