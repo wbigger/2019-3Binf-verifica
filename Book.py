@@ -32,6 +32,7 @@ class Book:
         return accumulator == isbn_check
 
     def is_sbn_code_valid(self,code):
+        # TODO: add a validation through a regular expression
         return True
 
     def has_isbn(self):
