@@ -1,16 +1,19 @@
-from Library import Library 
+from Library import Library
 
 from database.anselmi import get_books_list as get_anselmi
 from database.Cicio import get_books_list as get_cicio
 
 marconi = Library("Biblioteca IIS Marconi", "CIVMA")
-assert len(marconi.catalogue) == 0
+expected_catalogue_len = 0
+assert len(marconi.catalogue) == expected_catalogue_len
 
 marconi.add_books(get_anselmi())
-assert len(marconi.catalogue) == 2
+expected_catalogue_len += 2
+assert len(marconi.catalogue) == expected_catalogue_len, f"Expected {expected_catalogue_len}, got {len(marconi.catalogue)}"
 
 marconi.add_books(get_cicio())
-assert len(marconi.catalogue) == 4
+expected_catalogue_len += 2
+assert len(marconi.catalogue) == expected_catalogue_len, f"Expected {expected_catalogue_len}, got {len(marconi.catalogue)}"
 
 # a = "ciao"
 # b = bin(7)
