@@ -1,12 +1,12 @@
 class Book:
-    def __init__(self,title,author,publisher,year, pages, id):
+    def __init__(self,title,author,publisher,year, pages, book_id):
         self.title = title
         self.author = author
         self.publisher = publisher
         self.year = year
         self.pages = pages
-        self.isbn = id if self.is_isbn_valid(id) else None
-        self.sbn_code = id if self.is_sbn_code_valid(id) else None
+        self.isbn = book_id if self.is_isbn_valid(book_id) else None
+        self.sbn_code = book_id if self.is_sbn_code_valid(book_id) else None
         self.is_bulky = self.pages > 500
         
     def is_valuable(self,current_year):
