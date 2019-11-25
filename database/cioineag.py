@@ -1,4 +1,4 @@
-from book import Book
+from Book import Book
 
 
 il_rosso_e_il_nero = Book("Il rosso e il nero","Stendhal","Rizzoli",2010,385,"IT\\ICCU\\ANA\\0343850")
@@ -9,5 +9,5 @@ assert len(books) == 2, f"il libro inserito è {len(books)}, ma deve essere 1"
 assert books[0].title == "Il rosso e il nero", f"Il libro è{books[0].title},deve essere 'Il rosso e il nero'"
 assert books[1].title == "Dalla parte di Swann",f"Il libro è{books[1].title},deve essere 'Dalla parte di Swann'"
  
-def get_book_list():
+def get_books_list():
     return books

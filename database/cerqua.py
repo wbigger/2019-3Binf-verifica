@@ -6,3 +6,6 @@ book_1 = Book("i fratelli karamazov", "fedor dostoevskij", "Rizzoli", 2010, 475,
 books = [book_1]
 print(books[0].title,",", books[0].author)
 #TODO creare una funzione che si deve chiamare esattamente "get_books_list" che ritorna una lista con i file che ho creato
+
+def get_books_list():
+    books

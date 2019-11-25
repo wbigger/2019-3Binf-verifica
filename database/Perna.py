@@ -5,8 +5,8 @@ il_rosso_e_il_nero = Book("Il rosso e il nero", "Stendhal", "Rizzoli", 2010, 388
 
 books = [i_fratelli_karamazov, il_rosso_e_il_nero]
 
-assert book[0] == i_fratelli_karamazov
-assert book[1] == il_rosso_e_il_nero
+assert books[0] == i_fratelli_karamazov
+assert books[1] == il_rosso_e_il_nero
 
 def get_books_list(the_list):
     return books
