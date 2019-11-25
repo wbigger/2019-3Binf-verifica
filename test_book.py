@@ -15,8 +15,8 @@ def create_book(year):
     elif year == 6:
         return Book("Harry Potter e il principe mezzosangue","J. K. Rowling","Salani Editore",2005, 486, 8884516374)
     elif year == 7:
-        return Book("Harry Potter e i doni della morte","J. K. Rowling","Salani Editore",2007, 557, 9788884518781)
-
+        return Book("Harry Potter e i doni della morte","J. K. Rowling","Salani Editore",2007, 557, "IT\\ICCU\\RMS\\1908452")
+    
 def test_title():
     harry_potter = create_book(1)
     assert harry_potter.title == "Harry Potter e la pietra filosofale"
@@ -86,3 +86,12 @@ def test_isbn_2():
     # j = ( [a b c d e f g h i] * [1 2 3 4 5 6 7 8 9] ) mod 11 
     harry_potter = create_book(4)
     assert harry_potter.has_isbn() == False
+
+def test_sbn_code():
+    harry_potter = create_book(7)
+    assert harry_potter.sbn_code == "IT\\ICCU\\RMS\\1908452"
+    
+def test_sbn_code_1():
+    harry_potter = create_book(7)
+    assert harry_potter.has_isbn() == False
+    assert harry_potter.has_sbn_code() == True
