@@ -79,10 +79,10 @@ def test_isbn_1():
     # Assuming the digits are "abcdefghi-j" where j is the check digit. Then the check digit is computed by the following formula:
     # j = ( [a b c d e f g h i] * [1 2 3 4 5 6 7 8 9] ) mod 11 
     harry_potter = create_book(1)
-    assert harry_potter.is_isbn_valid() == True
+    assert harry_potter.has_isbn() == True
 
 def test_isbn_2():
     # Assuming the digits are "abcdefghi-j" where j is the check digit. Then the check digit is computed by the following formula:
     # j = ( [a b c d e f g h i] * [1 2 3 4 5 6 7 8 9] ) mod 11 
     harry_potter = create_book(4)
-    assert harry_potter.is_isbn_valid() == False
+    assert harry_potter.has_isbn() == False
