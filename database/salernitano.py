@@ -11,4 +11,5 @@ def test_is_correct():
 def get_books_list():
     for b in catalog:
         print(b.title)
+    return catalog
  

@@ -30,9 +30,9 @@ marconi.add_books(get_cacchiarelli())
 expected_catalogue_len += 2
 assert len(marconi.catalogue) == expected_catalogue_len, f"Expected {expected_catalogue_len}, got {len(marconi.catalogue)}"
 
-# marconi.add_books(get_cerqua())
-# expected_catalogue_len += 2
-# assert len(marconi.catalogue) == expected_catalogue_len, f"Expected {expected_catalogue_len}, got {len(marconi.catalogue)}"
+marconi.add_books(get_cerqua())
+expected_catalogue_len += 2
+assert len(marconi.catalogue) == expected_catalogue_len, f"Expected {expected_catalogue_len}, got {len(marconi.catalogue)}"
 
 marconi.add_books(get_cicio())
 expected_catalogue_len += 2
