@@ -88,5 +88,5 @@ marconi.add_books(get_verticelli())
 expected_catalogue_len += 2
 assert len(marconi.catalogue) == expected_catalogue_len, f"Expected {expected_catalogue_len}, got {len(marconi.catalogue)}"
 
-for b in marconi.catalogue:
-    print(json.dumps(b.__dict__))
+json_string = json.dumps([b.__dict__ for b in marconi.catalogue])
+print(json_string)
