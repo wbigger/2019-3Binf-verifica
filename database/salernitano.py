@@ -9,7 +9,5 @@ def test_is_correct():
     assert len(catalog) == 2
 
 def get_books_list():
-    for b in catalog:
-        print(b.title)
     return catalog
  
