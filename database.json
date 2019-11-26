@@ -1,0 +1,242 @@
+[
+    {
+        "title": "Martin_Eden",
+        "author": "Jack_London",
+        "publisher": "Rizzoli",
+        "year": 2010,
+        "pages": 460,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\TO0\\0417044",
+        "is_bulky": false
+    },
+    {
+        "title": "Ritratto_di_Signora_II",
+        "author": "Rizzoli",
+        "publisher": "Henry_James",
+        "year": 2010,
+        "pages": 355,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\ANA\\0343680",
+        "is_bulky": false
+    },
+    {
+        "title": "Il Capitan Fracassa",
+        "author": "Th\u00e8ophile Gautier",
+        "publisher": "Rizzoli",
+        "year": 2010,
+        "pages": 481,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\ANA\\0343102",
+        "is_bulky": false
+    },
+    {
+        "title": "Le Avventure Di Oliver Twist",
+        "author": "Charles Dickens",
+        "publisher": "",
+        "year": 2010,
+        "pages": 450,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\ANA\\0328890",
+        "is_bulky": false
+    },
+    {
+        "title": "i fratelli karamazov",
+        "author": "fedor dostoevskij",
+        "publisher": "Rizzoli",
+        "year": 2010,
+        "pages": 475,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\MIL\\0802714",
+        "is_bulky": false
+    },
+    {
+        "title": "i fratelli karamazov",
+        "author": "fedor dostoevskij",
+        "publisher": "Rizzoli",
+        "year": 2010,
+        "pages": 475,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\MIL\\0802714",
+        "is_bulky": false
+    },
+    {
+        "title": "Il processo",
+        "author": "Franz Kafka",
+        "publisher": "Rizzoli",
+        "year": 2009,
+        "pages": 266,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\ANA\\0328832",
+        "is_bulky": false
+    },
+    {
+        "title": "Cuore di tenebra La linea d'ombra",
+        "author": "Joseph Conrad",
+        "publisher": "Rizzoli",
+        "year": 2009,
+        "pages": 282,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\MIL\\0797139",
+        "is_bulky": false
+    },
+    {
+        "title": "Il rosso e il nero",
+        "author": "Stendhal",
+        "publisher": "Rizzoli",
+        "year": 2010,
+        "pages": 385,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\ANA\\0343850",
+        "is_bulky": false
+    },
+    {
+        "title": "Dalla parte di Swann",
+        "author": "Marcel Proust",
+        "publisher": "Rizzoli",
+        "year": 2010,
+        "pages": 410,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\MIL\\0802696",
+        "is_bulky": false
+    },
+    {
+        "title": "La canzone da sei soldi ",
+        "author": "A. J. Cronin",
+        "publisher": "Bompiani",
+        "year": 1965,
+        "pages": 373,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\LIA\\0032849",
+        "is_bulky": false
+    },
+    {
+        "title": "La camera cinese",
+        "author": "Vivian Connell",
+        "publisher": "Garzanti",
+        "year": 1965,
+        "pages": 303,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\SBL\\0553196",
+        "is_bulky": false
+    },
+    {
+        "title": "Moll Flanders",
+        "author": "Daniel Defoe",
+        "publisher": "Rizzoli",
+        "year": 2010,
+        "pages": 402,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\MIL\\0802697",
+        "is_bulky": false
+    },
+    {
+        "title": "le affinit\u00e0 elettive",
+        "author": "Johann Wolfgang Goethe",
+        "publisher": "Rizzoli",
+        "year": 2010,
+        "pages": 286,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\ANA\\0341464",
+        "is_bulky": false
+    },
+    {
+        "title": "I fratelli karamazov",
+        "author": "F\u00ebdor Dostoevskij",
+        "publisher": "Rizzoli",
+        "year": 2010,
+        "pages": 442,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\MIL\\0802705",
+        "is_bulky": false
+    },
+    {
+        "title": "Ivanhoe",
+        "author": "Walter Scott",
+        "publisher": "Rizzoli",
+        "year": 2009,
+        "pages": 480,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\ANA\\0328827",
+        "is_bulky": false
+    },
+    {
+        "title": "Get_thinking",
+        "author": "Herbert_ruchta",
+        "publisher": "Cambridge",
+        "year": 2012,
+        "pages": 221,
+        "isbn": null,
+        "sbn_code": null,
+        "is_bulky": false
+    },
+    {
+        "title": "Pollyanna",
+        "author": "Eleonor_H.porter",
+        "publisher": "Deagostini",
+        "year": 2001,
+        "pages": 137,
+        "isbn": null,
+        "sbn_code": null,
+        "is_bulky": false
+    },
+    {
+        "title": "Eugenio Onegin",
+        "author": "Aleksandr Pu\u0161kin",
+        "publisher": "Rizzoli",
+        "year": 2010,
+        "pages": 340,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\ANA\\0345144",
+        "is_bulky": false
+    },
+    {
+        "title": "Utz",
+        "author": "Bruce Chatwin",
+        "publisher": "La Biblioteca Di Repubblica",
+        "year": 2003,
+        "pages": 126,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\CAG\\0429141",
+        "is_bulky": false
+    },
+    {
+        "title": "Ritratto di signora",
+        "author": "Henry James",
+        "publisher": "Rizzoli",
+        "year": 2010,
+        "pages": 404,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\ANA\\0343679",
+        "is_bulky": false
+    },
+    {
+        "title": "Bel Ami",
+        "author": "Guy de maupassant",
+        "publisher": "Rizzoli",
+        "year": 2010,
+        "pages": 374,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\ANA\\0343631",
+        "is_bulky": false
+    },
+    {
+        "title": "E ORA...TUTTI IN BRASILE",
+        "author": "LUIGI GARLANDO",
+        "publisher": "PIEMME",
+        "year": 2017,
+        "pages": 125,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\UBO\\4257798",
+        "is_bulky": false
+    },
+    {
+        "title": "INIZIA IL CAMPIONATO",
+        "author": "LUIGI GARLANDO",
+        "publisher": "PIEMME",
+        "year": 2017,
+        "pages": 153,
+        "isbn": null,
+        "sbn_code": "IT\\ICCU\\CAG\\2069244",
+        "is_bulky": false
+    }
+]
